@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>お問い合わせ | HIKAKIN&amp;SEIKIN</title>
+   <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="wrapper">
+  <!-- ヘッダー -->
+  <header class="header">
+    <h1 class="logo"><a href="index.html">HIKAKIN&SEIKINの動画工房<img src="image/maxresdefault.jpg" alt="" width="2" height="1"></a></h1>
+    <nav class="nav">
+      <ul>
+        <li><a href="index.html">ホーム</a></li>
+        <li><a href="about.html">プロフィール</a></li>
+        <li><a href="contents.html">作品集</a></li>
+        <li><a href="link.html>">リンク</a></li>
+        <li><a href="contact.html">お問い合わせ</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- ヘッダー ここまで -->
+  <!-- メイン -->
+  <main>
+    <h2>UUUMへのアクセス</h2>
+      <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12966.716403995972!2d139.7290383!3d35.6602771!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x70f33830150d0eb6!2zVVVVTeagquW8j-S8muekvg!5e0!3m2!1sja!2sjp!4v1553609439418" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+      <table class="map-info">
+      <tr>
+        <th>最寄り駅</th>
+          <td>東京メトロ 日比谷線「六本木駅」1C出口</td>
+          <td>徒歩0分</td>
+      </tr>
+      <tr>
+        <th></th>
+          <td>都営地下鉄 大江戸線「六本木駅」3出口</td>
+          <td>徒歩4分</td>
+      </tr>
+      <tr>
+        <th></th>
+          <td>都営地下鉄 大江戸線「麻布十番駅」7出口</td>
+          <td>徒歩5分</td>
+      </tr>
+      <tr>
+        <th></th>
+          <td>都営地下鉄 大江戸線「六本木駅」3出口</td>
+          <td>徒歩8分</td>
+      </tr>
+      <tr>
+        <th></th>
+          <td>東京メトロ 千代田線「乃木坂」5出口</td>
+          <td>徒歩10分</td>
+      </tr>
+      </tr>
+      </table>
+
+    <h2>お問い合わせフォーム</h2>
+    <form method="GET" action="result.html">
+      <div>
+        <label for="kind">お問い合わせの種類</label><br>
+        <select id="kind" name="kind">
+          <option value="work">お仕事のご依頼</option>
+          <option value="right">権利関係について</option>
+          <option value="contact">その他のお問い合わせ</option>
+        </select>
+      </div>
+      <div>
+        HIKAKINとSEIKINの動画を毎日欠かさず見ていますか。<br>
+        <label><input type="radio" name="everyday" value="yes" checked>はい</label>
+        <label><input type="radio" name="everyday" value="no">いいえ</label>
+      </div>
+      <div>
+        HIKAKINとSEIKINを知ったきっかけを教えてください。<br>
+        <label><input type="checkbox" name="how" value="friends">友人の紹介より</label>
+        <label><input type="checkbox" name="how" value="twitter">ツイッターより</label>
+        <label><input type="checkbox" name="how" value="bymedia">テレビや情報サイトなどの情報メディアより</label>
+        <label><input type="checkbox" name="how" value="others">その他</label>
+      </div>
+      <div>
+        <label>お問い合わせの件名（簡潔にお願いします）<br>
+        <input type="text" name="subject" placeholder="お問い合わせ"></label>
+      </div>
+      <div class="message">
+        <label>お問い合わせの具体的な内容<br>
+        <textarea name="message" placeholder="お問い合わせ"></textarea></label>
+      </div>
+      <div class="submit">
+        <input type="submit" name="submit" value="送信">
+      </div>
+    </form>
+  </main>
+  <!-- メイン ここまで -->
+  <!-- フッター -->
+  <footer class="footer">
+    <p>&copy;Copyright HAMA. All rights reserved.</p>
+  </footer>
+  <!-- フッター ここまで -->
+</div>
+</body>
+</html>
