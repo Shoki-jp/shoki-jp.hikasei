@@ -105,6 +105,9 @@ img {
 
 /* 個別のスタイル */
 /* index.html */
+.youtube {
+  text-align: center;
+}
 .keyvisual {
   margin: 15px 0 0 0;
 }
